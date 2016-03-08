@@ -13,8 +13,8 @@ import org.jivesoftware.smack.chat.Chat;
 
 public class MyService extends Service {
     private static final String DOMAIN = "xmpp.jp";
-    private static final String USERNAME = "chikuz";
-    private static final String PASSWORD = "Apps@007";
+    private static final String USERNAME = "user1";
+    private static final String PASSWORD = "password";
     public static ConnectivityManager cm;
     public static MyXMPP xmpp;
     public static boolean ServerchatCreated = false;

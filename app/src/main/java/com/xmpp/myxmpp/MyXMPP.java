@@ -297,7 +297,7 @@ public class MyXMPP {
                     File file = new File(mf.getAbsoluteFile() + "/DCIM/mycamera/" + transfer.getFileName());
                     try {
                         transfer.recieveFile(file);
-                        final ChatMessage chatMessage = new ChatMessage("chikuz", "sandy009", "", "", transfer.getFileName() + random.nextInt(1000), true);
+                        final ChatMessage chatMessage = new ChatMessage("user1", "user2", "", "", transfer.getFileName() + random.nextInt(1000), true);
                         chatMessage.setMsgID();
                         chatMessage.body = "";
                         chatMessage.Date = CommonMethods.getCurrentDate();

@@ -36,7 +36,7 @@ import java.util.Random;
 public class Chats extends Fragment implements View.OnClickListener {
 
     private EditText msg_edittext;
-    private String user1 = "chikuz", user2 = "sandy009";
+    private String user1 = "user1", user2 = "user2";
     private Random random;
     public static ArrayList<ChatMessage> chatlist;
     public static ChatAdapter chatAdapter;
